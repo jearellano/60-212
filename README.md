@@ -2,70 +2,82 @@ CONTENTS OF THIS FILE
 ---------------------
    
 * Introduction
-* Assignment 1: Reverse Number Magic Sequence 
-* Assignment 2: 2D Array Manipulation 
-* Assignment 3: Pointers And Strings
-* Assignment 4: Structures 
-* Assignment 5: Dynamic Linked Lists 
- 
- 
+* Assignments
+* Laboratories
+
 INTRODUCTION
 ------------
 
-Completed Assignments 1 - 5 for Intro To Programming And Algorithms 2, 60-141, University Of Windsor 
+Completed Assignments&Laboratories 1 - 10 for Object Oriented Programming, 60-212, University Of Windsor 
  
-Assignment 1: Reverse Number Magic Sequence 
+Laboratory 1: Prime Number 
 ------------
 
-In order to generate a magic number, we reverse a given original number and store the absolute value
-of the difference between the original number and its reversed version. For example, given the number
-476, we will generate the reverse number 674 and then compute the absolute value of the difference
-between 476 and 674 to be 198. We then reverse 198 to display the number 891; we call that the magic
-number! Compute Magic numbers of a given sequence.Calculates the difference between a given number and 
-its reverse version. 
+Your Java program must
+a) Include an integer called, say, numberSupplied with a specifed value
+c) Compute the first prime number greater than numberSupplied.
+d) Display the results to the user 
 
-Assignment 2: 2D Array Manipulation 
+Laboratory 2: Strings
 ------------
 
-Code each of the functions specified below>> 
-void PopulateArray2DUnique(int A[][COL], unsigned int rowsize, unsigned int colsize, int min, int max);
-void DisplayArray2D(int A[][COL], unsigned int rowsize, unsigned int colsize);
-int FindLargest(int A[][COL], unsigned int rowsize, unsigned int colsize);
-int FindColSum(int A[][COL], unsigned int rowsize, unsigned int colsize, unsigned int col_to_sum);
-int Sort2DArray(int A[][COL], unsigned int rowsize, unsigned int colsize);
-int CopyArray2D(int A[][COL], int B[][COL], unsigned int rowsize, unsigned int colsize);
+Write a Java application which
+ reads in a line of text, with 0 or more leading blanks and with 0 or more trailing
+blanks, using nextLine() method to read the entire line of text using a single
+method call.
+ displays the words in the line that you read in. You should have one word in each
+line you display. You must use StringTokenizer class to do this.
+ displays the longest word in the line.
+ displays the total number of vowels in the line you read in. (Hint: The vowel
+may be in lower case or in upper case)
 
-Assignment 3: Pointers And Strings
+Laboratory 3: User Defined Class
 ------------
 
-Given some text input, you are to find the largest anagram groups.
-A text is a sequence of words. A word w is an anagram of a word v if and only if there is some
-permutation p of character positions that takes w to v. Then, w and v are in the same anagram group.
-The size of an anagram group is the number of words in that group. Find the 5 largest anagram groups.
-Terminates by the word "STOP", sort groups in decreasing size. 
+To create a new user-defined class with specified fields and methods. The class has to
+be tested using a Java application that we have supplied.
+ Use the StringTokenizer to parse the name given as a string.
 
-Assignment 4: Structures 
+Laboratory 4: Inheritance 
 ------------
 
-An event can be described using a time stamp and a string. For example: “09:30 Dental appointment” is
-an example of an event that has an hour and a minute, as well as a short description.
-For simplicity let’s assume all events happen on the same day, so there is no need to maintain a date.
-Also assume that the hours are between 0 and 23 inclusive, where the day starts at hour 0 (i.e.
-midnight) and 2pm is 14, etc. Assume also that the minute is between 0 and 59 inclusive. Finally, assume
-that the description string can hold up to 40 usable characters.
+Learn casting and inheritance.
 
-Assignment 5: Dynamic Linked Lists
+Laboratory 5: Polymorphism and Abstract Classes
 ------------
 
-Similar to the previous assignment, we will reuse the same structure with minor modifications.
-An event can be described using a time stamp and a string. For example: “09:30 Dental appointment” is
-an example of an event that has an hour and a minute, as well as a short description.
-For simplicity let’s assume all events happen in the same day, so no need to maintain a date. Also
-assume that the hours are between 0 and 23 inclusive, where the day starts at hour 0 (i.e. midnight) and
-2pm is 14, etc. Assume also that the minute is between 0 and 59 inclusive. Finally, assume that the
-string can hold up to 40 usable characters.
+Learning Fundamentals of Polymorphism and Abstract Classes, how much simplier code can become.  
 
-* Difference is it using a self-referential structure ptrFirst & ptrLast * 
 
->> Labs 1-10 && Text Work 2.16-8.15 available upon request 
+Laboratory 6: Interface,Abstract Classes and Abstract Methods
+------------
+
+This work is closely related to the classes you wrote in Laboratory 5. You should modify
+those classes as discussed below.
+
+Laboratory 7: JFrame And Event Handlers
+------------
+
+The user has to repeatedly specify an integer number in the JTextField object next to the
+label “Input” followed by an operation (+, -, *, /). The calculator has an internal variable
+which stores the result of the last operation. Initially, the value of this variable will be 0. 
+
+Laboratory 9: Linked Lists
+------------
+Consider class ListGeneral available on the web. Show how you may to define a class
+called SortedListOfInt that allows you to create and traverse a sorted linked list of
+objects, where successive objects contain an integer with non-decreasing values. The
+class SortedListOfInt should include an object of ListGeneral. This object of class
+ListGeneral should be used to maintain the linked list of Integer objects
+
+Laboratory 10: Exceptions
+------------
+ArrayIndexOutOfBoundsException – If a user tries to enter more elements than the length of the
+array numbers
+NumberFormatException – If the user enters anything other than an integer in inputArea.
+DivideByZeroException – If the user tries to find the average of all elements in array numbers
+before any integers have been stored into it. 
+// Assignments involving Generics and array lists etc are all made available in git hub repo 60-212
+
+>> Assignment pdfs && Text Work available upon request 
 
