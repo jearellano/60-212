@@ -77,7 +77,72 @@ array numbers
 NumberFormatException – If the user enters anything other than an integer in inputArea.
 DivideByZeroException – If the user tries to find the average of all elements in array numbers
 before any integers have been stored into it. 
-// Assignments involving Generics and array lists etc are all made available in git hub repo 60-212
+
+Assignment 1: Trivial Programming
+------------
+
+In cryptarithmetic puzzles, mathematical equations are written using letters. Each letter
+corresponds to a digit from 0 to 9 but no two letters can be the same. Here is a sample
+problem:
+SEND + MORE = MONEY
+A solution to the puzzle is S = 9, R = 8, O = 0, M = 1, Y = 2, E = 5, N = 6 and D = 7.
+Write a program that finds a solution to the puzzle of
+TOO + TOO + TOO + TOO = GOOD
+
+Assignment 2: Strings 
+------------
+
+Develop a Java application that
+ reads an input string (see example below) representing grades obtained by a
+student,
+ computes the average grade as a percentile.
+Example of input supplied to the application:
+(24/25) ;( 40/ 80); (91) ; (22/ 25)
+
+
+Assignment 3: Objects
+------------
+You have to define two classes as follows:
+o A class called Name with the following methods and variables given
+below. This class is similar to the MyDate class you are writing in Lab 3.
+
+Assignment 4: Inheritance 
+------------
+You have to define a new class called Manager by extending class NewWorker 
+
+Assignment 5: Grocery List 
+------------
+
+Define a list of classes to handle the case of different food items handled by a grocery as
+described below
+
+Assignment 6: Interface, Abstract Classes and Abstract Methods
+------------
+
+Assignment 7: JFrame and Event Handlers
+------------
+In this assignment, you will deal with classes CanadianStudent,CanadianStudentUnder65, ForeignStudent and
+interface FeeCalculator and Sortable. You have defined one version of these classes in Assignment 6. In this
+assignment, you will modify these classes to some extent and use it to learn Frames, events, and anonymous
+classes to handle events. Class Assignment7Tester, and class OutputFrame are available on the course website
+which you will use in this assignmrent. My solution to Assignment 6 will be available after the deadline for the
+assignmrent.
+
+Assignment 9: Linked Lists with generic types and iterators 
+------------
+
+Consider the class ListGeneral available on the web which was discussed in class. This uses a
+stand-alone Node class where each object of the Node class has private instance variables value
+and next of classes Object and Node respectively. You have to define two classes ListGeneric and
+SearchableList as follows: 
+
+Assignment 10: Exception and Arraylist
+------------
+
+Our objective is to develop an information system that allows us to i) store a
+number of (key, value) pairs, and ii) retrieve information from such a system by
+specifying the contents of key. You may assume that a given key value appears at
+most once in the information system
 
 >> Assignment pdfs && Text Work available upon request 
-
+>> did not complete 8
